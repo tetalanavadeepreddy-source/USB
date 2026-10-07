@@ -1,0 +1,21 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <!-- net8.0-windows targets Windows Forms; requires the .NET 8 SDK on the build machine. -->
+    <TargetFramework>net8.0-windows</TargetFramework>
+    <UseWindowsForms>true</UseWindowsForms>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <!-- Add <ApplicationIcon>app.ico</ApplicationIcon> here once you have a branded .ico
+         file in this folder; TrayApplicationContext falls back to a system icon until then. -->
+    <AssemblyName>UsbTrayWatcher</AssemblyName>
+    <!-- Publishing as a single self-contained file means end users don't need the
+         .NET runtime installed separately. Remove these two lines for a smaller,
+         framework-dependent build if your users already have .NET 8 installed. -->
+    <SelfContained>true</SelfContained>
+    <RuntimeIdentifier>win-x64</RuntimeIdentifier>
+    <PublishSingleFile>true</PublishSingleFile>
+  </PropertyGroup>
+
+</Project>

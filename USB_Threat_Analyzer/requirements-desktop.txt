@@ -1,0 +1,4 @@
+# Everything needed to BUILD the standalone .exe (run on Windows, Python 3.12+)
+-r requirements.txt
+pywebview>=5.3
+pyinstaller>=6.10

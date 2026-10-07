@@ -1,0 +1,10 @@
+Flask==3.0.3
+psutil==5.9.8
+watchdog==4.0.1
+pefile==2023.2.7
+python-magic-bin==0.4.14; platform_system == "Windows"
+python-magic==0.4.27; platform_system != "Windows"
+reportlab==4.2.0
+lief==0.14.1
+yara-python==4.5.1
+capstone==5.0.3
